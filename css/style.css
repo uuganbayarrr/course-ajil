@@ -1,0 +1,60 @@
+
+html, body{
+	font-size: 100%;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+body a,.grid_1,plan_1,plan_1.one,plan_1.two,i.icon1, i.icon2, i.icon3, i.icon4, i.icon5, i.icon6 {
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"],li.parallelogram{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*-- banner --*/
+.banner {
+    background: url(../images/1.jpg)no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 440px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding: 4em 0 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container{
+    margin-top: 25px;
+}
